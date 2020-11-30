@@ -1,0 +1,20 @@
+server:
+  port: 8761
+eureka:
+  client:
+    fetchRegistry: false
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  server:
+    waitTimeInMWhenSyncEmpty: 5
+logging:
+  level:
+    com:
+      netflix:
+        discovery: OFF
+        eureka: OFF
+management:
+  endpoint:
+    health:
+      show-details: always
