@@ -72,7 +72,7 @@
 			</configuration>
 			</plugin>
 
-			<!-- This plugin is used to create a docker image and publish the image to docker hub-->
+			<!--&lt;!&ndash; This plugin is used to create a docker image and publish the image to docker hub&ndash;&gt;
 			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
@@ -95,7 +95,7 @@
 					</execution>
 				</executions>
 			</plugin>
-		</plugins>
+-->		</plugins>
 	</build>
 
 	<repositories>
